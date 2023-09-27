@@ -1,0 +1,83 @@
+html{
+    background-color: #0a0a0a;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 1px 1px rgba(242, 187, 201,60);
+}
+body{
+    font-family: Arial;
+}
+nav{
+        text-align: center;
+        font-family: arial;
+        font-size: 16px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 8px 16px;
+}
+nav ul li a{
+    display: inline;
+    padding: 8px 16px;
+    color: #F2BBC9;
+    text-decoration: none;
+}
+header button{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #0a0a0a;
+    color: #F2BBC9;
+    border-radius: 5px;
+    border: 0;
+}
+#cu:hover{
+    background-color: #F2BBC9;
+  color: #0a0a0a;
+}
+
+#about{
+    font-family: Tahoma,sans-serif;
+    padding-left: 10px;
+    padding-right: 30%;
+    padding-top: 30px;
+    color: #F2BBC9;
+}
+#skills{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 10px;
+    padding-right: 30%;
+    padding-top: 100px;
+    color: #F2BBC9;
+}
+
+#foto{
+    margin-top: 20px;
+    float: right;
+    width: 250px;
+    height: 250px;
+    padding : 20px;
+    border-radius: 30%;
+    box-shadow: 1px 1px 1px 1px rgba(242, 187, 201,60);
+    margin-right: 50px;
+    
+}
+#spotify{
+    display: flex; 
+    flex-direction: row; 
+    margin-right: 40px; 
+    margin-bottom: 10%;
+}
+
+#contact{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 30%;
+    padding-top: 100px;
+    color: #F2BBC9;
+}
